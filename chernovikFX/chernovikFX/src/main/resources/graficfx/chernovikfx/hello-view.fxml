@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graficfx.chernovikfx.HelloController">
+   <children>
+      <Button fx:id="lab12" layoutX="33.0" layoutY="88.0" mnemonicParsing="false" onAction="#lab12click" text="1.Линейный алгоритм" />
+      <Button fx:id="lab131" layoutX="33.0" layoutY="125.0" mnemonicParsing="false" onAction="#lab131click" text="2.Ветвящийся алгоритм" />
+      <Button fx:id="lab14" layoutX="33.0" layoutY="196.0" mnemonicParsing="false" onAction="#lab14click" text="4.Задача с массивом данных" />
+      <Button fx:id="lab132" layoutX="33.0" layoutY="160.0" mnemonicParsing="false" onAction="#lab132click" text="3.Циклический алгоритм" />
+   </children>
+</AnchorPane>

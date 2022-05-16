@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graficfx.chernovikfx.lab14Controller">
+   <children>
+      <TextField fx:id="aField" layoutX="14.0" layoutY="113.0" />
+      <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Заполните массив. Сначала вывести все цифры, а затем остальные символы, сохраняя при этом взаимное расположение символов в каждой из этих групп" wrappingWidth="213.890625" />
+      <TextField fx:id="bField" layoutX="14.0" layoutY="144.0" />
+      <TextField fx:id="cField" layoutX="14.0" layoutY="179.0" />
+      <TextField fx:id="dField" layoutX="14.0" layoutY="212.0" />
+      <TextField fx:id="eField" layoutX="14.0" layoutY="245.0" />
+      <Button fx:id="sortirovkaBtn" layoutX="204.0" layoutY="167.0" mnemonicParsing="false" onAction="#sortBtnClick" text="Сортировка" />
+   </children>
+</AnchorPane>

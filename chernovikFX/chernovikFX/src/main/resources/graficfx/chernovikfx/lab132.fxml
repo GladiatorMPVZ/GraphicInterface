@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="graficfx.chernovikfx.lab132Controller">
+   <children>
+      <Text layoutX="14.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Расчитать функцию S(x) для x изменяющегося с шагом h = (xk - xn)/10" wrappingWidth="189.806640625" />
+      <Button fx:id="rasButton" layoutX="222.0" layoutY="27.0" mnemonicParsing="false" onAction="#rasButtonClick" text="Расчет" />
+      <TextField layoutX="36.0" layoutY="80.0" prefHeight="25.0" prefWidth="27.0" fx:id="xkField" />
+      <TextField layoutX="95.0" layoutY="80.0" prefHeight="25.0" prefWidth="27.0" fx:id="xnField" />
+      <Text layoutX="14.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="xk:" />
+      <Text layoutX="74.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="xn:" />
+      <TextArea fx:id="vivodSecondFunction" layoutX="8.0" layoutY="110.0" prefHeight="183.0" prefWidth="212.0" wrapText="true" />
+   </children>
+</AnchorPane>
